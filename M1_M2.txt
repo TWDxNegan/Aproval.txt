@@ -1,0 +1,7 @@
+model2 = ["Pixel 3", "Galaxy S10", "OnePlus 8"]
+def M1(): 
+    dal = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+    b = ";[FBAN/Orca- Android;FBAV/273.0.0.0.82;FBPN/com.facebook.orca;FBLC/en_US;FBBV/234764317;FBCR/CenturyLink;FBMF/OPPO;FBDV/PJH110;FBSV/8.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1080,height=2412};FB_FW/1;]"
+    ua = a+b
+    return ua
