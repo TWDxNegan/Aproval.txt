@@ -1,2 +1,7 @@
 def MOADUA():
-    return "[FBAN/FB4A;FBAV/" + str(random.randint(111,999)) + '.0.0.' + str(random.randint(11,99)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,99999999)) + ";[FBAN/FB4A;FBAV/383.0.0.3.76;FBBV/30515292;FBDM/{density=2.0,width=1080,height=2400};FBLC/en_US;FBRV/286323262;FBCR/Airtel;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/Redmi 10;FBSV/13;FBOP/1;FBCA/arm64-v8a:]" 
+    a1 = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+".0.0."+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+    x1 = "[FBAN/FB4A;FBAV/177.0.0.42.54;FBBV/47958605;FBDM/{density=2.0,width=1160,height=1779};FBLC/en_BD;FBRV/23757707;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A5070;FBSV/12;FBOP/19;FBCA/arm64-v8a:null;]"
+    x2 = "[FBAN/FB4A;FBAV/254.0.0.32.69;FBBV/11573666;FBDM/{density=2.5,width=1205,height=1670};FBLC/en_BD;FBRV/62915278;FBCR/Bouygues Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A605K;FBSV/10;FBOP/19;FBCA/arm64-v8a:null;]"
+    b1 = random.choice([x1, x2,])
+    ua = a1 + b1
+    return ua
