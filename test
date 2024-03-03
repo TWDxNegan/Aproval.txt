@@ -1,1 +1,12 @@
 
+def B1():
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
+    
+    b = random.choice([
+        "[FBAN/FB4A;FBAV/352.0.0.20.117;FBBV/310414731;FBDM/{density=3.5,width=1200,height=1024};FBLC/en_US;FBRV/237981618;FB_FW/2;FBCR/Magenta;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo S5;FBSV/9.9.3;FBOP/1;FBCA/arm64-v8a:;]",
+        "[FBAN/FB4A;FBAV/185.0.0.9352[FBAN/Orca-Android;FBAV/359.0.0.35.120;FBBV/552727041;FBRV/0;FBPN/com.facebook.orca;FBLC/en_US;FBMF/TECNO MOBILE LIMITED;FBBD/TECNO;FBDV/TECNO KE5;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]",
+        "[FBAN/FB4A;FBAV/75.0.0.39.59;FBBV/525089766;FBDM/{density=2.0,width=1080,height=2400};FBLC/en_US;FBRV/564541635;FBCR/Verizon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A528B;FBSV/11.0;FBOP/1;FBCA/armeabi-v7a;]"
+    ])
+    
+    ua = a + b
+    return ua
