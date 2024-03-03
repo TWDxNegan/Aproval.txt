@@ -1,7 +1,11 @@
 def B1():
-    a1 = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+".0.0."+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-    x1 = "[FBAN/FB4A;FBAV/409.0.0.27.106;FBBV/440813707;FBDM/{density=1.75,width=720,height=1396};FBLC/en_US;FBCR/Airtel;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2036A;FBSV/10.5;nullFBCA/arm64-v8a:;]"
-    x2 = "[FBAN/FB4A;FBAV/220.0.0.46.112;FBBV/153408057;FBDM/{density=2.25,width=720,height=1332};FBLC/en_US;FBCR/airtel;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2199A;FBSV/12;nullFBCA/arm64-v8a:;]"
-    b1 = random.choice([x1, x2,])
-    ua = a1 + b1
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
+    
+    b = random.choice([
+        "[FBAN/Orca-Android;FBAV/196.0.0.58;FBPN/com.facebook.orca;FBLC/en_IN;FBBV/619395140;FBCR/Jazz;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/Xiaomi 13 Ultra;FBSV/13.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1440,height=3200};FB_FW/1;FBRV/660112490]",
+        "[FBAN/FB4A;FBAV/185.0.0.9352[FBAN/Orca-Android;FBAV/359.0.0.35.120;FBBV/552727041;FBRV/0;FBPN/com.facebook.orca;FBLC/en_US;FBMF/TECNO MOBILE LIMITED;FBBD/TECNO;FBDV/TECNO KE5;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]",
+        "[FBAN/FB4A;FBAV/75.0.0.39.59;FBBV/525089766;FBDM/{density=2.0,width=1080,height=2400};FBLC/en_US;FBRV/564541635;FBCR/Verizon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A528B;FBSV/11.0;FBOP/1;FBCA/armeabi-v7a;]"
+    ])
+    
+    ua = a + b
     return ua
