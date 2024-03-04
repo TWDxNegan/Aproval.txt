@@ -1,3 +1,4 @@
+import requests 
 def B1():
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
     b = ";[FBAN/FB4A;FBAV/196.0.0.29;FBBV/681459619;FBDM/{density=1.5,width=720,height=1440};FBLC/en_IN;FBRV/337911727;FBCR/Movil GSM;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N986B;FBSV/8.4.4;nullFBCA/armeabi-v7a:armeabi;]"
