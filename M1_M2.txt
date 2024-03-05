@@ -5,7 +5,8 @@ def B1():
     b = random.choice([
         "[FBAN/FB4A;FBAV/316.0.0.4319[FBAN/Orca-Android;FBAV/367.0.0.43.106;FBBV/570760801;FBRV/0;FBPN/com.facebook.orca;FBLC/en_US;FBMF/TECNO MOBILE LIMITED;FBBD/TECNO;FBDV/TECNO KE5;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]",
         "[FBAN/FB4A;FBAV/196.0.0.78;FBBV/981387899;FBDM/{density=1.0,width=720,height=1920};FBLC/np_NP;FBRV/564943925;FBCR/Siminn;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A700H;FBSV/12.5.3;nullFBCA/armeabi-v7a:armeabi;]",
-        "[FBAN/FB4A;FBAV/63.0.0.24.87;FBBV/554350310;FBDM/{density=4.0,width=1200,height=1920};FBLC/es_UY;FBRV/570599784;FBCR/OrangeB;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T580;FBSV/8.1;FBOP/19;FBCA/armv8-a;]"
+        "[FBAN/FB4A;FBAV/63.0.0.24.87;FBBV/554350310;FBDM/{density=4.0,width=1200,height=1920};FBLC/es_UY;FBRV/570599784;FBCR/OrangeB;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T580;FBSV/8.1;FBOP/19;FBCA/armv8-a;]", 
+        "[FBAN/FB4A;FBAV/278.0.0.51.119;FBBV/229281747;FBDM/{density=3.0,width=720,height=1440};FBLC/en_US;FBCR/Airtel;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V1809A;FBSV/8.1;nullFBCA/arm64-v8a:;]" 
     ])
     
     ua = a + b
