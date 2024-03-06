@@ -1,5 +1,5 @@
 def B1():
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    b = ";[FBAN/FB4A;FBAV/91.0.0.5389;FBBV/467433241;FBDM/{density=2.0,width=720,height=1426};FBLC/en_NZ;FBRV/315718132;FBCR/Far EasTone;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi 3;FBSV/5.2.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    b = ";[FBAN/FB4A;FBAV/278.0.0.51.119;FBBV/229281747;FBDM/{density=3.0,width=720,height=1440};FBLC/en_US;FBCR/Airtel;FBMF/hyundai;FBBD/hyundai;FBPN/com.facebook.katana;FBDV/l553;FBSV/8.1;nullFBCA/arm64-v8a:;]"
     ua = a + b
     return ua
