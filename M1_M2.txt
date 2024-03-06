@@ -1,9 +1,5 @@
 def B1():
-    android_version = random.randint(4, 13)
-    model_list = ["SM-G950U", "SM-G925F", "SM-N9005"]
-    android_model = random.choice(model_list)
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    user_agent = f"Dalvik/2.1.0 (Linux; U; Android {android_version}; {android_model} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}" \
-                 ")"+a+";[FBAN/FB4A;FBAV/91.0.0.5389;FBBV/467433241;FBDM/{{density=2.0,width=720,height=1426}};FBLC/en_NZ;FBRV/315718132;FBCR/Far EasTone;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi 3;FBSV/5.2.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-
-    return user_agent
+    b = ";[FBAN/FB4A;FBAV/160.0.0.22.52;FBBV/837783269;FBDM/{density=2.0,width=720,height=1431};FBLC/fr_GN;FBRV/861355600;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A715W;FBSV/11.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = a + b
+    return ua
