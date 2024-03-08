@@ -1,9 +1,11 @@
 def B1():
-    android_version = random.randint(4, 13)
-    model_list = ["SM-G950U", "SM-G925F", "SM-N9005"]
-    android_model = random.choice(model_list)
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    user_agent = f"Dalvik/2.1.0 (Linux; U; Android {android_version}; {android_model} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}" \
-                 ")"+a+";[FBAN/FB4A;FBAV/196.0.0.56;FBBV/828144891;FBDM/{density=2.5,width=1080,height=1440};FBLC/it_IT;FBRV/823521954;FBCR/Jio 4G;FBMF/Redmi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/XIG02;FBSV/10.2.4;nullFBCA/armeabi-v7a:armeabi;]"
-
-    return user_agent
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
+    
+    b = random.choice([
+        "[FBAN/FB4A;FBAV/235.0.0.38.118;FBBV/168314968;FBDM/{density=3.0,width=720,height=1440};FBLC/en_US;FBCR/null;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/ANG-LX1;FBSV/10;nullFBCA/arm64-v8a:;]",
+        "[FBAN/Orca-Android;FBAV/130.0.0.15.89;FBPN/com.facebook.orca;FBLC/sv_SE;FBBV/67467545;FBCR/S COMVIQ;FBMF/samsung;FBBD/samsung;FBDV/GT-B5330L;FBSV/4.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=240,height=320};FB_FW/1;]",
+        ";[FBAN/FB4A;FBAV/196.0.0.56;FBBV/828144891;FBDM/{density=2.5,width=1080,height=1440};FBLC/it_IT;FBRV/823521954;FBCR/Jio 4G;FBMF/Redmi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/XIG02;FBSV/10.2.4;nullFBCA/armeabi-v7a:armeabi;]"
+    ])
+    
+    ua = a + b
+    return ua
