@@ -1,5 +1,26 @@
 def B1():
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    b = ";[FBAN/FB4A;FBAV/122.0.0.17.71;FBBV/56891632;FBDM/{density=4.0,width=768,height=736};FBLC/en_US;FBRV/264173435;FB_FW/2;FBCR/Ncell;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo V20;FBSV/12.4.9;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    model = random.choice(["SM-A013F","SM-A013G","SM-A013M","SM-A015F","SM-A015M","SM-A022F","SM-A022G","SM-A022M","SM-A025F","SM-A025G","SM-A025M","SM-A025U","SM-A032F","SM-A032M","SM-A035F","SM-A035G","SM-A035M","SM-A037F","SM-A037G","SM-A037M","SM-A037U","SM-A102U","SM-A102U1","SM-A105F","SM-A105FN","SM-A105G","SM-A105M","SM-A107F","SM-A107M","SM-A115F","SM-A115M","SM-A115U","SM-A115U1","SM-A125F","SM-A125M","SM-A125U","SM-A127F","SM-A127M","SM-A135F","SM-A135M","SM-A136U","SM-A136U1","SM-A136W","SM-A137F","SM-A202F","SM-A202K","SM-A205F","SM-A205FN","SM-A205G","SM-A205GN","SM-A205U","SM-A2070","SM-A207F","SM-A207M","SM-A215U","SM-A215U1","SM-A217F","SM-A217M","SM-A225F","SM-A225M","SM-A226B","SM-A226BR","SM-A226L","SM-A235F","SM-A235M","SM-A260F","SM-A260G","SM-A300F","SM-A300FU","SM-A300H","SM-A3050","SM-A3051","SM-A305F","SM-A305G","SM-A305GT","SM-A305N","SM-A307FN","SM-A307G","SM-A307GN","SM-A310F","SM-A310M","SM-A315F","SM-A315G","SM-A320F","SM-A320FL","SM-A325F","SM-A325M","SM-A326K","SM-A326U","SM-A326W","SM-A336B","SM-A336E","SM-A405FM","SM-A405FN","SM-A415F","SM-A426B","SM-A426U","SM-A430F","SM-A5009","SM-A500F","SM-A500FU","SM-A500H","SM-A500L","SM-A500W","SM-A500X","SM-A500XZ","SM-A500Y","SM-A500YZ","SM-A505F","SM-A505FN","SM-A505G","SM-A505GN","SM-A505U","SM-A5070","SM-A507FN","SM-A510F","SM-A510Y","SM-A515F","SM-A515U","SM-A515U1","SM-A516B","SM-A516N","SM-A516U","SM-A516V","SM-A520F","SM-A520W","SM-A525F","SM-A525M","SM-A526B","SM-A526U","SM-A526U1","SM-A526W","SM-A528B","SM-A530F","SM-A530N","SM-A530W","SM-A536B","SM-A536E","SM-A536U","SM-A536V","SM-A600FN","SM-A600G","SM-A6050","SM-A605F","SM-A605FN","SM-A605G","SM-A605GN","SM-A605K","SM-A6060","SM-A606Y","SM-A7000","SM-A700F","SM-A700FD","SM-A700H","SM-A700YD","SM-A705F","SM-A705FN","SM-A705MN","SM-A707F","SM-A710F","SM-A710M","SM-A715F","SM-A715W","SM-A716B","SM-A716S","SM-A716U","SM-A716U1","SM-A716V","SM-A720F","SM-A725F","SM-A725M","SM-A730F","SM-A736B","SM-A750F","SM-A750FN","SM-A750GN","SM-A805F","SM-A810F","SM-A810S","SM-A810YZ","SM-A826S","SM-A9000","SM-A9080","SM-A908B","SM-A908N","SM-A910F","SM-A920F"])
+    a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=2.0,width=720,height=1600};FBLC/en_US;FBCR/T-Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A035F;FBSV/11;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = a+b+c
+    return ua
+
+def X1():
+    model2=random.choice(["SM-A326W","SM-A336B","SM-A336E","SM-A405FM","SM-A405FN","SM-A415F","SM-A426B","SM-A426U","SM-A430F","SM-A5009","SM-A500F","SM-A500FU","SM-A500H","SM-A500L","SM-A500W","SM-A500X","SM-A500XZ","SM-A500Y","SM-A500YZ","SM-A505F","SM-A505FN","SM-A505G","SM-A505GN","SM-A505U","SM-A5070","SM-A507FN","SM-A510F","SM-A510Y"])
+    a = f"Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/FB4A;FBAV/196.0.0.82;FBBV/109341443;FBDM/{density=1.0,width=1080,height=1080};FBLC/ar_SA;FBRV/437170022;FBCR/WOM;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/MED-TL00;FBSV/7.3.4;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b+c
+    return ua    
+def X2():
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
+    
+    b = random.choice([
+        ";[FBAN/FB4A;FBAV/196.0.0.82;FBBV/109341443;FBDM/{density=1.0,width=1080,height=1080};FBLC/ar_SA;FBRV/437170022;FBCR/WOM;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/MED-TL00;FBSV/7.3.4;nullFBCA/armeabi-v7a:armeabi;]", 
+        ";[FBAN/FB4A;FBAV/427.0.0.31.63;FBBV/444411021;FBDM/{density=2.25,width=720,height=1332};FBLC/en_US;FBCR/Mobilis;FBMF/TECNO;FBBD/TECNO;FBPN/com.facebook.katana;FBDV/Camon i;FBSV/7.0;nullFBCA/armeabi-v7a:armeabi;]", 
+        ";[FBAN/FB4A;FBAV/122.0.0.17.71;FBBV/56891632;FBDM/{density=4.0,width=768,height=736};FBLC/en_US;FBRV/264173435;FB_FW/2;FBCR/Ncell;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo V20;FBSV/12.4.9;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ])
+    
     ua = a + b
     return ua
