@@ -1,14 +1,5 @@
 def B1():
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
-    
-    b = random.choice([
-        ";[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/420811604;FBDM/{density=2.25,width=720,height=1332};FBLC/en_US;FBCR/Eswatini Mobile;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo 1819;FBSV/9;nullFBCA/arm64-v8a:;]", 
-        ";[FBAN/FB4A;FBAV/267.1.0.46.120;FBBV/210653367;FBDM/{density=2.25,width=720,height=1332};FBLC/en_US;FBCR/null;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto e(6i);FBSV/10;nullFBCA/armeabi-v7a:armeabi;]", 
-        ";[FBAN/FB4A;FBAV/122.0.0.17.71;FBBV/56891632;FBDM/{density=4.0,width=768,height=736};FBLC/en_US;FBRV/264173435;FB_FW/2;FBCR/Ncell;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo V20;FBSV/12.4.9;FBOP/1;FBCA/armeabi-v7a:armeabi;]", 
-        ";[FBAN/Orca-Android;FBAV/426.0.0.27.102;FBPN/com.facebook.orca;FBLC/in_ID;FBBV/515381945;FBCR/Telkomsel;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/RNE-L22;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.75,width=1080,height=2050};FB_FW/1;]",
-        ";[FBAN/FB4A;FBAV/273.0.0.39.123;FBPN/com.facebook.katana;FBLC/vi_VN;FBBV/218047938;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/SM-G532G;FBSV/6.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=540,height=960};FB_FW/1;FBRV/219557400;]",
-        ";[FBAN/MessengerLite;FBAV/273.0.0.16.48;FBPN/com.facebook.mlite;FBLC/en_US;FBBV/325178905;FBCR/null;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/JKM-LX1;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2137};]"
-    ])
-    
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
+    b = ";[FBAN/FB4A;FBAV/122.0.0.17.71;FBBV/56891632;FBDM/{density=4.0,width=768,height=736};FBLC/en_US;FBRV/264173435;FB_FW/2;FBCR/Ncell;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo V20;FBSV/12.4.9;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     ua = a + b
     return ua
