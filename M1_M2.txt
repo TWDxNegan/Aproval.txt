@@ -2,8 +2,7 @@ def B1():
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
     
     b = random.choice([
-        ";FBAN/FB4A;FBAV/196.0.0.53;FBBV/551274421;FBDM/{density=2.5,width=1080,height=1920};FBLC/en_CA;FBRV/703302330;FBCR/Claro AR;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI 5305;FBSV/11.2.1;nullFBCA/armeabi-v7a:armeabi;]"
-", 
+        ";FBAN/FB4A;FBAV/196.0.0.53;FBBV/551274421;FBDM/{density=2.5,width=1080,height=1920};FBLC/en_CA;FBRV/703302330;FBCR/Claro AR;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI 5305;FBSV/11.2.1;nullFBCA/armeabi-v7a:armeabi;]", 
         ";[FBAN/Orca-Android;FBAV/378.0.0.25.106;FBPN/com.facebook.orca;FBLC/es_US;FBBV/397777638;FBCR/TELCEL;FBMF/Xiaomi;FBBD/Redmi;FBDV/220333QAG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1505};FB_FW/1;]"
     ])
     
