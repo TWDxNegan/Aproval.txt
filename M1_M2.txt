@@ -1,5 +1,10 @@
 def B1():
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
-    b = ";[FBAN/FB4A;FBAV/63.0.0.24.87;FBBV/554350310;FBDM/{density=4.0,width=1200,height=1920};FBLC/es_UY;FBRV/570599784;FBCR/OrangeB;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T580;FBSV/8.1;FBOP/19;FBCA/armv8-a;]"
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
+    
+    b = random.choice([
+        ";[FBAN/FB4A;FBAV/328.1.0.28.119;FBBV/285616312;FBDM/{density=2.0,width=720,height=1358};FBLC/en_US;FBCR/airtel;FBMF/SONY;FBBD/sony;FBPN/com.facebook.katana;FBDV/SO-02L;FBSV/9.0;nullFBCA/arm64-v8a:;]", 
+        ";[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;FBDM/{density=3.0,width=1080,height=1776};FBLC/en_US;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G8870;FBSV/9;nullFBCA/armeabi-v7a:armeabi;]"
+    ])
+    
     ua = a + b
     return ua
