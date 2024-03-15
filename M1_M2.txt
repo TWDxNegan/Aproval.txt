@@ -1,10 +1,9 @@
-def B1():
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
-    
-    b = random.choice([
-        ";[FBAN/FB4A;FBAV/328.1.0.28.119;FBBV/285616312;FBDM/{density=2.0,width=720,height=1358};FBLC/en_US;FBCR/airtel;FBMF/SONY;FBBD/sony;FBPN/com.facebook.katana;FBDV/SO-02L;FBSV/9.0;nullFBCA/arm64-v8a:;]", 
-        ";[FBAN/FB4A;FBAV/223.0.0.47.120;FBBV/156649449;FBDM/{density=3.0,width=1080,height=1776};FBLC/en_US;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G8870;FBSV/9;nullFBCA/armeabi-v7a:armeabi;]"
-    ])
-    
-    ua = a + b
-    return ua
+def B12():
+    android_version = random.randint(4, 13)
+    ua = random.choice(["FBAN/FB4A;FBAV/196.0.0.53;FBBV/551274421;FBDM/{density=2.5,width=1080,height=1920};FBLC/en_CA;FBRV/703302330;FBCR/Claro AR;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI 5305;FBSV/11.2.1;nullFBCA/armeabi-v7a:armeabi;]","[FBAN/Orca-Android;FBAV/378.0.0.25.106;FBPN/com.facebook.orca;FBLC/es_US;FBBV/397777638;FBCR/TELCEL;FBMF/Xiaomi;FBBD/Redmi;FBDV/220333QAG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1505};FB_FW/1;]"])
+    model_list=random.choice(["A516V","SM-A520F","SM-A520W","SM-A525F","SM-A525M","SM-A526B","SM-A526U","SM-A526U1","SM-A526W","SM-A528B","SM-A530F","SM-A530N","SM-A530W","SM-A536B","SM-A536E","SM-A536U","SM-A536V","SM-A600FN","SM-A600G","SM-A6050","SM-A605F","SM-A605FN","SM-A605G","SM-A605GN","SM-A605K","SM-A6060","SM-A606Y","SM-A7000","SM-A700F","SM-A700FD","SM-A700H","SM-A700YD","SM-A705F","SM-A705FN","SM-A705MN","SM-A707F","SM-A710F","SM-A710M","SM-A715F","SM-A715W","SM-A716B","SM-A716S","SM-A716U","SM-A716U1","SM-A716V","SM-A720F","SM-A725F","SM-A725M","SM-A730F","SM-A736B","SM-A750F","SM-A750FN","SM-A750GN","SM-A805F","SM-A810F","SM-A810S","SM-A810YZ","SM-A826S","SM-A9000","SM-A9080","SM-A908B","SM-A908N","SM-A910F","SM-A920F"])
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
+    user_agent = f"Dalvik/2.1.0 (Linux; U; Android {android_version}; {model_list} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}" \
+                 ")"+a+f";{ua}"
+
+    return user_agent
