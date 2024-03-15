@@ -2,8 +2,8 @@ def B1():
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
     
     b = random.choice([
-        ";[FBAN/Orca-Android;FBAV/378.0.0.25.106;FBPN/com.facebook.orca;FBLC/es_US;FBBV/397777638;FBCR/TELCEL;FBMF/Xiaomi;FBBD/Redmi;FBDV/220333QAG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1505};FB_FW/1;]", 
-        ";FBAN/FB4A;FBAV/196.0.0.53;FBBV/551274421;FBDM/{density=2.5,width=1080,height=1920};FBLC/en_CA;FBRV/703302330;FBCR/Claro AR;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI 5305;FBSV/11.2.1;nullFBCA/armeabi-v7a:armeabi;]"
+        ";[FBAN/FB4A;FBAV/392.2.0.33.108;FBBV/318413506;FBDM/{density=2.625,width=1080,height=1794};FBLC/en_US;FBCR/Teletalk;FBMF/Asus;FBBD/Zenfone;FBPN/com.facebook.katana;FBDV/ASUS_I01WDX;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]", 
+        ";[FBAN/FB4A;FBAV/274.0.0.46.119;FBBV/219237426;FBDM/{density=1.75,width=720,height=1396};FBLC/en_US;FBCR/Telecom;FBMF/Sony;FBBD/Sony;FBPN/com.facebook.katana;FBDV/H9436;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"
     ])
     
     ua = a + b
