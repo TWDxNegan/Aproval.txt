@@ -2,10 +2,9 @@ def B1():
     a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
     
     b = random.choice([
-        ";[FBAN/Orca-Android;FBAV/378.0.0.25.106;FBPN/com.facebook.orca;FBLC/es_US;FBBV/397777638;FBCR/TELCEL;FBMF/Xiaomi;FBBD/Redmi;FBDV/220333QAG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1505};FB_FW/1;]", 
-        ";[FBAN/FB4A;FBAV/453.0.0.40.107;FBBV/570632523;FBDM/{density=2.0,width=720,height=1378};FBLC/en_US;FBRV/572851270;FBCR/Grameenphone;FBMF/ALTICE;FBBD/altice;FBPN/com.facebook.katana;FBDV/Altice S11;FBSV/4.4.4;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]", 
-        ";[FBAN/FB4A;FBAV/405.0.0.23.72;FBBV/440002512;FBDM/{density=1.0,width=720,height=736};FBLC/en_US;FBRV/287933832;FB_FW/2;FBCR/Airtel;FBMF/ARCHOS;FBBD/Archos;FBPN/com.facebook.katana;FBDV/101e Neon;FBSV/5.1;FBOP/1;FBCA/arm64-v8a:;]", 
-        ";[FBAN/FB4A;FBAV/417.0.0.33.65;FBBV/480086259;FBDM/{density=1.875,width=1554,height=690};FBLC/en_US;FBRV/483172840;FBCR/Banglalink;FBMF/BQ;FBBD/BQ;FBPN/com.facebook.katana;FBDV/BQ 5503 NICE 2;FBSV/7.0;FBOP/1;FBCA/arm64-v8a:;]"
+        ";FBAN/FB4A;FBAV/196.0.0.53;FBBV/551274421;FBDM/{density=2.5,width=1080,height=1920};FBLC/en_CA;FBRV/703302330;FBCR/Claro AR;FBMF/HUAWEI;FBBD/HUAWEI;FBPN/com.facebook.katana;FBDV/HUAWEI 5305;FBSV/11.2.1;nullFBCA/armeabi-v7a:armeabi;]"
+", 
+        ";[FBAN/Orca-Android;FBAV/378.0.0.25.106;FBPN/com.facebook.orca;FBLC/es_US;FBBV/397777638;FBCR/TELCEL;FBMF/Xiaomi;FBBD/Redmi;FBDV/220333QAG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1505};FB_FW/1;]"
     ])
     
     ua = a + b
