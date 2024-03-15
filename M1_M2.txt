@@ -1,10 +1,5 @@
 def B1():
-    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49, 66)) + ".0.0." + str(random.randrange(20, 49)) + str(random.randint(11, 99)) + ";FBBV/" + str(random.randint(11111111, 77777777))
-    
-    b = random.choice([
-        ";[FBAN/FB4A;FBAV/392.2.0.33.108;FBBV/318413506;FBDM/{density=2.625,width=1080,height=1794};FBLC/en_US;FBCR/Teletalk;FBMF/Asus;FBBD/Zenfone;FBPN/com.facebook.katana;FBDV/ASUS_I01WDX;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]", 
-        ";[FBAN/FB4A;FBAV/274.0.0.46.119;FBBV/219237426;FBDM/{density=1.75,width=720,height=1396};FBLC/en_US;FBCR/Telecom;FBMF/Sony;FBBD/Sony;FBPN/com.facebook.katana;FBDV/H9436;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"
-    ])
-    
+    a = "[FBAN/FB4A;FBAV/" + str(random.randint(49,66)) + '.0.0.' + str(random.randrange(20,49)) + str(random.randint(11,99)) + ";FBBV/" + str(random.randint(11111111,77777777))
+    b = ";[FBAN/FB4A;FBAV/63.0.0.24.87;FBBV/554350310;FBDM/{density=4.0,width=1200,height=1920};FBLC/es_UY;FBRV/570599784;FBCR/OrangeB;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T580;FBSV/8.1;FBOP/19;FBCA/armv8-a;]"
     ua = a + b
     return ua
